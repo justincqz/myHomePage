@@ -1,58 +1,54 @@
-body{
-    border: none;
-    margin: 0px;
-    padding: 0px;
+body {
+  border: none;
+  margin: 0px;
+  padding: 0px;
 }
 
-html{
-    border: none;
-    margin: 0px;
-    padding: 0px;
+html {
+  border: none;
+  margin: 0px;
+  padding: 0px;
 }
 
-.frontpage{
-    background-image: url('fp_edit.gif');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    text-align: center;
-    vertical-align: middle;
-    display: table-cell;
-    height: 100vh;
-    width: 100vw;
-    border: none;
-    margin: 0px;
-    padding: 0px;
-    -webkit-filter: blur(2px);
-    -moz-filter: blur(2px);
-    -o-filter: blur(2px);
-    -ms-filter: blur(2px);
-    filter: blur(2px);
+.frontpage {
+  background-image: radial-gradient(circle, #CFCFCF, #8F8F8F, #5F5F5F);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+  height: 100vh;
+  width: 100vw;
+  border: none;
+  margin: 0px;
+  padding: 0px;
+  -webkit-filter: blur(2px);
+  -moz-filter: blur(2px);
+  -o-filter: blur(2px);
+  -ms-filter: blur(2px);
+  filter: blur(2px);
 }
 
-.title_container{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: #CFCFCF;
-    background: rgba(0,0,0,0.2);
-    position: absolute;
-    top: 40vh;
-    left: 40vw;
+.title_container {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #CFCFCF;
+  //background: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 40vh;
+  left: 40vw;
 }
 
-.title_container .title{
-    font-size: 5vh;
+.title_container .title {
+  font-size: 5vh;
 }
 
-.title_container .subtitle{
-    top: 43vh;
-    left: 40vw;
-    font-size: 3vh;
+.title_container .subtitle {
+  top: 43vh;
+  left: 40vw;
+  font-size: 3vh;
 }
 
-
-
-
-
-.bodypage{
-    height: 100vh;
+.bodypage {
+  height: 100vh;
 }
